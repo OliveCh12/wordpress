@@ -1,0 +1,26 @@
+/* Event Section */
+.main-title{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card-event{
+  background-color: #fff;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.card-thumbnail{
+  width: 100% !important;
+  height: 200px;
+  object-fit: cover !important;
+}
+.entry-title{
+  color: #d65456;
+}
+.entry-more a{
+  color: #d65456 !important;
+  text-decoration: none;
+}
+.highlight{
+  color: #d65456;
+}
