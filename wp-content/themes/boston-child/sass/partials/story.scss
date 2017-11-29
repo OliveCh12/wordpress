@@ -1,0 +1,38 @@
+// Card Story
+.marker{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: $primary-color;
+  margin-left: -3px;
+}
+.card-story
+{
+  border-left: 2px solid $primary-color;
+  padding-left: 30px;
+  margin-top: 30px;
+
+  .entry-title{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .card-subtitle{
+    margin-top: -15px;
+    font-size: 12pt;
+    color: $grey-light;
+  }
+}
+
+.passing-reverse {
+  animation: passing-reverse_1163 0.3s linear;
+  transform-origin: 50% 50%;
+}
+
+@keyframes passing-reverse_1163 {
+  0% { transform:translateX(50%); opacity:0 }
+  100% { transform:translateX(0%); opacity:1 }
+}
+
+article:nth-child(0n+1){
+  animation-delay: 3s;
+}

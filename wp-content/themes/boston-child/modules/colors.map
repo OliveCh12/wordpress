@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/modules/colors.css",
+	"sources": [
+		"../sass/modules/colors.scss"
+	],
+	"sourcesContent": [
+		"// Colors pallet for the website\n\n$primary-color : #d65456;\n$secondary-color : #ed9c9d;\n$white-max : #fff;\n$white-light : #F9F9F9;\n$grey-light : #aaaaaa;\n$dark-light : #363333;\n$dark : #272121;\n"
+	],
+	"mappings": "",
+	"names": []
+}

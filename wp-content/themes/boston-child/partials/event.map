@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/partials/event.css",
+	"sources": [
+		"../sass/partials/event.scss"
+	],
+	"sourcesContent": [
+		"/* Event Section */\n.main-title{\n  font-weight: bold;\n  text-transform: uppercase;\n}\n.card-event{\n  background-color: #fff;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #f1f1f1;\n}\n\n.card-thumbnail{\n  width: 100% !important;\n  height: 200px;\n  object-fit: cover !important;\n}\n.entry-title{\n  color: #d65456;\n}\n.entry-more a{\n  color: #d65456 !important;\n  text-decoration: none;\n}\n.highlight{\n  color: #d65456;\n}\n"
+	],
+	"mappings": "AAAA,mBAAmB;;AACnB,AAAA,WAAW,CAAA;EACT,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,SAAU;CAC3B;;;AACD,AAAA,WAAW,CAAA;EACT,gBAAgB,EAAE,IAAK;EACvB,cAAc,EAAE,IAAK;EACrB,aAAa,EAAE,iBAAkB;CAClC;;;AAED,AAAA,eAAe,CAAA;EACb,KAAK,EAAE,eAAgB;EACvB,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,gBAAiB;CAC9B;;;AACD,AAAA,YAAY,CAAA;EACV,KAAK,EAAE,OAAQ;CAChB;;;AACD,AAAY,WAAD,CAAC,CAAC,CAAA;EACX,KAAK,EAAE,kBAAmB;EAC1B,eAAe,EAAE,IAAK;CACvB;;;AACD,AAAA,UAAU,CAAA;EACR,KAAK,EAAE,OAAQ;CAChB",
+	"names": []
+}

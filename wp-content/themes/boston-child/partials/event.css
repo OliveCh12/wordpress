@@ -1,0 +1,38 @@
+/* Event Section */
+/* line 2, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/event.scss */
+.main-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 6, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/event.scss */
+.card-event {
+  background-color: #fff;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* line 12, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/event.scss */
+.card-thumbnail {
+  width: 100% !important;
+  height: 200px;
+  object-fit: cover !important;
+}
+
+/* line 17, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/event.scss */
+.entry-title {
+  color: #d65456;
+}
+
+/* line 20, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/event.scss */
+.entry-more a {
+  color: #d65456 !important;
+  text-decoration: none;
+}
+
+/* line 24, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/event.scss */
+.highlight {
+  color: #d65456;
+}
+
+/*# sourceMappingURL=../../partials/event.map */

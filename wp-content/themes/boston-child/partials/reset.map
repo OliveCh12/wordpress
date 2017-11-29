@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/partials/reset.css",
+	"sources": [
+		"../sass/partials/reset.scss"
+	],
+	"sourcesContent": [
+		"/* Reset */\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nbody{\n  font-family: 'Roboto', sans-serif !important;\n}\np{\n  font-size: 16px;\n}\n"
+	],
+	"mappings": "AAAA,WAAW;;AACX,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,IAAI,CAAA;EACF,WAAW,EAAE,+BAAgC;CAC9C;;;AACD,AAAA,CAAC,CAAA;EACC,SAAS,EAAE,IAAK;CACjB",
+	"names": []
+}

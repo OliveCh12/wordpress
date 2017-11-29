@@ -36,6 +36,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </body>
 </html>
