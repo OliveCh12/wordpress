@@ -6,13 +6,17 @@ h4,
 h5,
 h6,
 body{
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Hind', sans-serif;
 }
 p{
   font-size: 16px;
 }
+// Header section
+.main-navigation a{
+  font-weight: bold !important;
+  text-align: center;
+}
 .main-subtitle{
-  color: $grey-light;
   font-size: 14pt;
   margin-top: -10px;
   text-transform: uppercase;

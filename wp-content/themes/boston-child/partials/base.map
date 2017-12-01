@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/partials/base.css",
+	"sources": [
+		"../sass/partials/base.scss"
+	],
+	"sourcesContent": [
+		"// Header section\n"
+	],
+	"mappings": "",
+	"names": []
+}

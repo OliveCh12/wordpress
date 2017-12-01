@@ -17,9 +17,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<!-- Header Section -->
-      <h1 class="main-title">Notre Historique :</h1>
-			<p class="main-subtitle">Présentation des événements réalisés au cours de notre carrière.</p>
+			<!-- Header Section START -->
+      <h1 class="main-title">Historique :</h1>
+			<p class="main-subtitle">Présentation des événements</p>
 			<!-- Header Section END -->
 
       <!-- Displays all new events -->

@@ -7,12 +7,25 @@ h4,
 h5,
 h6,
 body {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Hind', sans-serif;
 }
 
 /* line 11, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/reset.scss */
 p {
   font-size: 16px;
+}
+
+/* line 15, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/reset.scss */
+.main-navigation a {
+  font-weight: bold !important;
+  text-align: center;
+}
+
+/* line 19, /Users/olivierchemla/Sync/Web Developpement/Perso/Laravel/unesco/wp-content/themes/boston-child/sass/partials/reset.scss */
+.main-subtitle {
+  font-size: 14pt;
+  margin-top: -10px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=../../partials/reset.map */

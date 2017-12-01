@@ -17,8 +17,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-      <h1 class="main-title">Les Prochains concerts :</h1>
+			
       <!-- Displays all new events -->
 			<?php
 			$args = array('post_type' => 'events', );

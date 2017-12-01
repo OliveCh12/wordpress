@@ -1,5 +1,5 @@
 /*
- Theme Name:   Boston-Child
+ Theme Name:   Choeur & Orchestre
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Boston Description
  Author:       Olivier chemla
@@ -12,12 +12,11 @@
  Text Domain:  twenty-fifteen-child
 */
 
-#wpadminbar{
-  display: none;
-}
 // Modules
 @import "modules/colors";
 // Partials
+@import "partials/base";
 @import "partials/reset";
+@import "partials/blog";
 @import "partials/event";
 @import "partials/story";

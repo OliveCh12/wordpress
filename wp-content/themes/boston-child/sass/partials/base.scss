@@ -1,0 +1,39 @@
+// Header section
+.site-header{
+  background-color: $white-light;
+  // background-image: url(../../uploads/2017/11/background-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:  soft-light;
+}
+.site-title{
+  color: $dark-light !important;
+}
+.site-title:hover{
+  color: $primary-color !important;
+  transition: 1s;
+}
+.site-description{
+  color: $primary-color !important;
+}
+.current_page_item{
+  border-bottom: 1px solid $primary-color !important;
+}
+
+// General Pages :
+.entry-title{
+  color: #d65456;
+  display: none;
+}
+
+// Homepage
+.home-section{
+  color: $primary-color;
+  font-weight: bold;
+}
+.home-sub-section{
+  color: $dark-light;
+}
+.section-div{
+  margin-left: 0 !important;
+}

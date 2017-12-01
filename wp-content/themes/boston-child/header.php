@@ -16,9 +16,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- Adding customization -->
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
 <?php wp_head(); ?>
 </head>
 
@@ -27,23 +28,6 @@
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'boston' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-topbar">
-			<div class="container">
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'boston' ); ?></button>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				</nav><!-- #site-navigation -->
-				<?php do_action('boston_before_top_searchform'); ?>
-				<div class="topbar-search">
-					<?php do_action('boston_top_searchform'); ?>
-					<form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
-					    <input type="text" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="<?php esc_html_e('Search and hit enter...', 'boston') ?>" />
-						<span class="genericon genericon-search"></span>
-						<!-- <i class="fa fa-search" aria-hidden="true"></i> -->
-					</form>
-				</div>
-			</div>
-		</div>
 
 		<div class="site-branding">
 			<div class="container">
@@ -53,9 +37,9 @@
 				}
 
 				if ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<h1 class="site-title hvr-grow"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+					<p class="site-title hvr-grow"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 				endif;
 
@@ -66,7 +50,25 @@
 				endif; ?>
 				<?php do_action('boston_after_site_description'); ?>
 			</div>
-		</div><!-- .site-branding -->
+		</div>
+		<div class="site-topbar">
+			<div class="container">
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'boston' ); ?></button>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				</nav><!-- #site-navigation -->
+				<?php do_action('boston_before_top_searchform'); ?>
+				<div class="topbar-search">
+					<?php do_action('boston_top_searchform'); ?>
+					<form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
+							<input type="text" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="<?php esc_html_e('Search and hit enter...', 'boston') ?>" />
+						<span class="genericon genericon-search"></span>
+						<!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- .site-branding -->
 
 	</header><!-- #masthead -->
 

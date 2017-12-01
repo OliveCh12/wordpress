@@ -5,8 +5,8 @@
 		"../sass/partials/reset.scss"
 	],
 	"sourcesContent": [
-		"/* Reset */\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nbody{\n  font-family: 'Roboto', sans-serif !important;\n}\np{\n  font-size: 16px;\n}\n"
+		"/* Reset */\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nbody{\n  font-family: 'Hind', sans-serif;\n}\np{\n  font-size: 16px;\n}\n// Header section\n.main-navigation a{\n  font-weight: bold !important;\n  text-align: center;\n}\n.main-subtitle{\n  font-size: 14pt;\n  margin-top: -10px;\n  text-transform: uppercase;\n}\n"
 	],
-	"mappings": "AAAA,WAAW;;AACX,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,IAAI,CAAA;EACF,WAAW,EAAE,+BAAgC;CAC9C;;;AACD,AAAA,CAAC,CAAA;EACC,SAAS,EAAE,IAAK;CACjB",
+	"mappings": "AAAA,WAAW;;AACX,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,EAAE;AACF,AAAA,IAAI,CAAA;EACF,WAAW,EAAE,kBAAmB;CACjC;;;AACD,AAAA,CAAC,CAAA;EACC,SAAS,EAAE,IAAK;CACjB;;;AAED,AAAiB,gBAAD,CAAC,CAAC,CAAA;EAChB,WAAW,EAAE,eAAgB;EAC7B,UAAU,EAAE,MAAO;CACpB;;;AACD,AAAA,cAAc,CAAA;EACZ,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,KAAM;EAClB,cAAc,EAAE,SAAU;CAC3B",
 	"names": []
 }

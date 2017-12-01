@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/partials/blog.css",
+	"sources": [
+		"../sass/partials/blog.scss"
+	],
+	"sourcesContent": [
+		"// article{\n//   background-color: #fff;\n//   border: 1px solid #f1f1f1;\n//   border-radius: 5px;\n//   box-shadow: 10px 5px 50px #f1f1f1;\n//   padding: 30px;\n// }\n"
+	],
+	"mappings": "",
+	"names": []
+}

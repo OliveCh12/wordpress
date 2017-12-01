@@ -24,20 +24,18 @@ get_header(); ?>
       <!-- Article event single view start -->
       <article class="card-event">
         <header class="entry-header">
-          <h3 class="entry-title"><?php the_title(); ?></h3>
+          <h3 class="card-title"><?php the_title(); ?></h3>
           <div class="entry-meta">
             <span class="entry-cate"><a class="entry-category">Informations :</a></span>
             <br><br>
             <span class="author vcard">Lieu : <strong class="highlight"><?php the_field('lieu') ?></strong></span>
             <br>
-            <span class="author vcard">Prix : <strong class="highlight"><?php the_field('prix') ?> €</strong></span>
-            <br>
-            <span class="entry-date"><time class="entry-date published updated">DATE DE L'EVENEMENT : <strong class="highlight"><?php the_field('start_date'); ?></strong></time></span>
+            <span class="entry-date"><time class="entry-date published updated">DATE DE L'EVENEMENT : <strong class="highlight"><?php the_field('datetime'); ?></strong></time></span>
           </div>
         </header>
         <div class="card-body">
           <div class="card-image">
-            <img alt="thumbnail" class="card-thumbnail" src="<?php the_post_thumbnail()?>">
+            <img alt="thumbnail" class="card-thumbnail-single" src="<?php the_post_thumbnail()?>
           </div>
           <div class="card-text">
             <p><?php the_content(); ?></p>
